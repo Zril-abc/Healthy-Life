@@ -1,0 +1,29 @@
+# Dependencies
+**/node_modules/
+
+# Environment files (jangan commit secret asli)
+**/.env
+!**/.env.example
+
+# Build output
+web/dist/
+backend/dist/
+
+# Expo / React Native
+mobile/.expo/
+mobile/dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

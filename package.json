@@ -1,0 +1,13 @@
+{
+  "name": "healthy-life-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Healthy Life - aplikasi edukasi kesehatan (backend + web + mobile)",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix web && npm install --prefix mobile",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:web": "npm run dev --prefix web",
+    "build:web": "npm run build --prefix web",
+    "start:combined": "npm run build --prefix web && npm run dev --prefix backend"
+  }
+}
