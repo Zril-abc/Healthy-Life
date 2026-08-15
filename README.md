@@ -1,8 +1,8 @@
-# 🌿 Healthy Life
+# Healthy Life
 
 **Healthy Life** adalah platform edukasi kesehatan bagi masyarakat — tersedia sebagai aplikasi **web** dan **mobile** dengan tampilan serta alur yang konsisten di keduanya. Aplikasi menyediakan artikel, video, dan infografis seputar pola hidup sehat, dan membantu pengguna memantau kebiasaan sehatnya sendiri.
 
-## ✨ Fitur
+##  Fitur
 
 | Fitur | Keterangan |
 |---|---|
@@ -24,7 +24,7 @@ Seluruh fitur dan konten **hanya bisa diakses setelah registrasi/login**, sesuai
 | 🧠 Kesehatan Mental | Manajemen stres dan kesejahteraan psikologis |
 | 🛡️ Pencegahan Penyakit | Langkah menjaga tubuh dari penyakit |
 
-## 🏗️ Arsitektur
+##  Arsitektur
 
 ```
                 MongoDB
@@ -43,7 +43,7 @@ Seluruh fitur dan konten **hanya bisa diakses setelah registrasi/login**, sesuai
 
 `web/` dan `mobile/` **tidak pernah** mengakses database secara langsung — keduanya cuma bicara ke `backend/` lewat REST API. Kredensial database hanya hidup di `backend/.env`, tidak pernah terkirim ke browser maupun aplikasi mobile.
 
-## 📁 Struktur Project
+##  Struktur Project
 
 ```
 healthy-life-app/
@@ -57,7 +57,7 @@ healthy-life-app/
 
 Tiap folder (`backend/`, `web/`, `mobile/`) punya `README.md` sendiri dengan instruksi & detail lengkap.
 
-## 🚀 Menjalankan Aplikasi
+##  Menjalankan Aplikasi
 
 **A. Terpisah** (paling nyaman untuk development — web dapat hot-reload cepat):
 ```bash
@@ -77,7 +77,7 @@ cd mobile && npm install && npx expo start
 ```
 Scan QR dengan **Expo Go**. Perhatikan: `localhost` tidak berfungsi kalau tes di HP fisik — lihat `mobile/README.md` untuk cara pakai alamat IP yang benar.
 
-## 📡 API Singkat
+##  API Singkat
 
 | Grup | Endpoint | Auth |
 |---|---|---|
@@ -88,7 +88,7 @@ Scan QR dengan **Expo Go**. Perhatikan: `localhost` tidak berfungsi kalau tes di
 
 Detail lengkap tiap endpoint ada di `backend/README.md`.
 
-## 🛠️ Teknologi
+##  Teknologi
 
 | Bagian | Teknologi |
 |---|---|
@@ -96,11 +96,7 @@ Detail lengkap tiap endpoint ada di `backend/README.md`.
 | Web | React (Vite), Tailwind CSS, React Router |
 | Mobile | React Native (Expo), React Navigation |
 
-## 📄 Dokumentasi Tugas
-
-Dokumen lengkap (alur aplikasi, struktur database, tempat mengisi link Figma & screenshot) ada di `docs/Dokumentasi_HealthyLife.docx`.
-
-## 📤 Push ke GitHub
+##  Push ke GitHub
 
 Dari dalam folder `healthy-life-app/` (setelah extract zip):
 ```bash
