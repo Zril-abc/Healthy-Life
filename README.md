@@ -15,7 +15,7 @@
 
 Seluruh fitur dan konten **hanya bisa diakses setelah registrasi/login**, sesuai ketentuan tugas.
 
-## 🗂️ Kategori Konten
+##  Kategori Konten
 
 | Kategori | Tentang |
 |---|---|
