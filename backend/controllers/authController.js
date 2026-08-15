@@ -28,6 +28,9 @@ exports.register = async (req, res) => {
       user: { id: user._id, name: user.name, email: user.email },
     });
   } catch (error) {
+    
+    console.error("PELAKU ERROR KETEMU DI SINI:", error);
+
     res.status(500).json({ message: 'Terjadi kesalahan server', error: error.message });
   }
 };

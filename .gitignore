@@ -1,7 +1,7 @@
 # Dependencies
 **/node_modules/
 
-# Environment files (jangan commit secret asli)
+# Environment files
 **/.env
 !**/.env.example
 
